@@ -1,7 +1,7 @@
 body {	color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;background-color:#e6e4e4;-webkit-font-smoothing:antialiased;background-color: #eee;}
 
 a{color:#55bfcc; text-decoration:none;}
-a:hover{color:#b8ccce;}
+a:hover{color:#b8ccce; text-decoration:none;}
 .btn,a,.btn:hover,a:hover {
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
@@ -20,6 +20,17 @@ h1{font:700 3em Fjalla One,Arial,Helvetica;padding:5em 0;text-transform: upperca
 .post-title {font:700 2.0em Roboto,Arial,Helvetica; padding:0 0 5em 0;}
 h2{font:700 1.5em Raleway,Arial,Helvetica;margin-bottom: 1.5em; color: #d93621; text-transform:uppercase;}
 h3{font:700 1.25em Raleway,Arial,Helvetica;margin:0.5em 0;}
+
+.inscrevase {
+    width:220px;
+  padding: 15px;
+  margin: -150px auto 100px auto;
+  border: 3px #55bfcc solid;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
 
 p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
