@@ -21,6 +21,11 @@ h1{font:700 3em Fjalla One,Arial,Helvetica;padding:5em 0;text-transform: upperca
 h2{font:700 1.5em Raleway,Arial,Helvetica;margin-bottom: 1.5em; color: #d93621; text-transform:uppercase;}
 h3{font:700 1.25em Raleway,Arial,Helvetica;margin:0.5em 0;}
 
+.inscrevase-div {
+  width:100%;
+    height: 150px;
+}
+
 .inscrevase {
     width:220px;
   padding: 15px;
@@ -32,7 +37,7 @@ h3{font:700 1.25em Raleway,Arial,Helvetica;margin:0.5em 0;}
   border-radius: 7px;
 }
 
-p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
+p {font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .container{width: 100%; max-width: 1400px;}
 .wrapper{background-color: #fff;}
@@ -94,8 +99,13 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 
-.footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;padding: 3em;}
+.footer{background-color: #111; color: #fff; font-size: 0.8em;color: #aaa;padding: 3em;}
 .footer a{color: #aaa;margin: 0 1em; }
+.footer-logos{width:380px; height:140px; margin: auto;}
+.footer-logos p{text-align:left; margin-left:45px; !important}
+.footer-logonic{float:left;}
+.footer-logoed{float:right;}
+.footer-logoed p{margin-left:25px;}
 
 .gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
 .gototop i{line-height: 0.5em;}
